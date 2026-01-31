@@ -11,9 +11,17 @@ The dashboard is organized into four tabs:
 - NASA APOD Integration: Utilizes the NASA API to fetch and display the "Astronomy Picture of the Day" with a toggleable info panel for photograph context. 
 - Displays Nasa Astronomy Picture of the day photo with optional checkbox to display photo information
 
-Tech Stack: 
+**Tech Stack:**
 - Language: Python
 - Library: Streamlit
 - Data Handling: Pandas
 - Visualization: Plotly.Express
 - API: Nasa APOD API
+
+**Required:**
+In order to display NASA APOD, follow these steps to receive an API Key:
+- Go to this link: [NASA Open API](https://api.nasa.gov/)
+- Fill out the "Generate API Key" section on the page (check email for the API key)
+- Under the Browse API tab search "APOD" and click the link
+- Follow the instructions on the page
+- Add API Key to your .env file within your project 
